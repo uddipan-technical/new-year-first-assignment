@@ -191,7 +191,7 @@ footer{
     color: #F8F8F8;
 }
 .future-content p {
-    font-size: 16px;
+    font-size: 13px;
     line-height: 26px;
     color: #fff;
     padding: 10px 0;
@@ -207,7 +207,7 @@ footer{
 }
 .footer-section {
     display: flex;
-    column-gap: 365px;
+    column-gap: 262px;
 }
 .subscribe-unit h2{
     font-weight: 600;
