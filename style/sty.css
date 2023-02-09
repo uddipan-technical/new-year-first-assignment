@@ -1,0 +1,236 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+section{
+    margin-top: 100px;
+    padding: 0 200px;
+    margin-bottom: 50px;
+}
+h1,h2,h3,h4,p{
+    margin: 0;
+    padding: 0;
+}
+.btn-primary {
+    padding: 15px 20px;
+    font-size: 20px;
+    color: #005FAC;
+    border-radius: 5px;
+    border: none;
+    font-weight: normal;
+    margin-top: 20px;
+}
+header{
+    background-image: url('../images/banner/bg3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-section {
+    text-align: right;
+    padding: 175px 158px 250px 770px;
+}
+.banner-heading {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 82px;
+    color: #fff;
+    margin-bottom: 32px;
+}
+
+.banner-description {
+    font-size: 14px;
+    font-weight: normal;
+    color: #fff;
+    padding-left: 174px;
+    padding-bottom: 30px;
+}
+.about-me{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+.about-img {
+    width: 100%;
+    height: 500px;
+}
+.about-img img {
+    width: 100%;
+    height: 100%;
+}
+.icon-box {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.about-content-unit {
+    padding: 0px 10px;
+    width: 100%;
+}
+.check-icon {
+    width: 21px;
+    height: 19px;
+}
+.about-content-heading {
+    padding-right: 193px;
+    padding-bottom: 20px;
+    margin-top: 60px;
+}
+.about-content-description {
+    font-size: 14px;
+    padding-right: 111px;
+}
+
+.icon-description {
+    font-size: 14px;
+    font-weight: 400;
+}
+/*plant-section-end*/
+.extra-section {
+    background-color: #000;
+    padding-bottom: 35px;
+}
+.my-project {
+    display: flex;
+}
+
+.project-unit {
+    margin-right: 10px;
+    background-color: #17171C;
+}
+.project-section-heading{
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.project-content {
+    display: flex;
+    color: #fff;
+    padding: 30px;
+    column-gap: 10px;
+}
+.project-heading a {
+    color: #fff;
+    text-decoration: none;
+}
+.project-main-text {
+    color: #fff;
+    text-align: center;
+    padding: 20px 200px 50px;
+}
+.projects-uses {
+    display: flex;
+    color: #fff;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+}
+.projects-uses p {
+    padding: 5px 10px;
+    background-color: #1A2233;
+    color: #3069D3;
+    font-size: 16px;
+}
+.my-projects-section {
+    padding: 50px 0;
+}
+
+/*Extra-section(my-project)-end*/
+.plan-content-heading {
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+}
+.plan-box {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 50px;
+}
+.plan-box-item p {
+    font-size: 19px;
+    font-weight: 500;
+    color: #737272;
+    line-height: 29px;
+}
+.plan-box-item h3 {
+    margin: 16px 0 10px;
+}
+/*Call-now-section*/
+.call-now-content {
+    background: url(../images/watch.png) rgba(235, 100, 160, 0.4);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+.call-now-content {
+    padding: 50px 64px;
+}
+.call-now-content h2 {
+    font-size: 40px;
+    width: 460px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+/*footer*/
+footer{
+    margin-top: 100px;
+    padding: 130px 200px;
+    background: #151414;
+}
+.future-content h2{
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+}
+.future-content p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+    padding: 10px 0;
+}
+.icon-unit {
+    margin-top: 30px;
+}
+.icon-unit img {
+    width: 36px;
+    margin-right: 10px;
+    margin-top: -2px;
+    height: 31px;
+}
+.footer-section {
+    display: flex;
+    column-gap: 365px;
+}
+.subscribe-unit h2{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #fff;
+    padding: 24px 0;
+}
+fieldset {
+    margin: 0;
+    padding: 0;
+}
+#mail {
+    padding: 14px 10px;
+    background: #151414;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    width: 300px;
+}
+#submit{
+    padding: 15px 30px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    font-weight: normal;
+    margin-top: 20px;
+    background: #005FAC;
+}
